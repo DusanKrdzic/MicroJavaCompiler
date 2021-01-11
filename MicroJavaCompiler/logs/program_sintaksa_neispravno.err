@@ -1,0 +1,162 @@
+INFO  15:50:57,594 - Compiling source file: /Users/dusankrdzic/eclipse-workspace/MJCompiler/test/program_sintaksa_neispravno.mj
+INFO  15:50:57,651 - #2 program
+INFO  15:50:57,651 - #14 TestSintaksnaGreska
+INFO  15:50:57,651 - #14 int
+INFO  15:50:57,652 - #14 c
+INFO  15:50:57,653 - #6 ,
+INFO  15:50:57,653 - #36 +
+ERROR 15:50:57,653 - 
+Sintaksna greska na liniji 3
+INFO  15:50:57,653 - #6 ,
+INFO  15:50:57,653 - #14 p
+INFO  15:50:57,653 - #6 ,
+INFO  15:50:57,661 - #36 +
+ERROR 15:50:57,661 - Izvrsen oporavak od grekse pri deklarisanju promenljive u liniji 3
+ERROR 15:50:57,662 - 
+Sintaksna greska na liniji 3
+INFO  15:50:57,662 - #5 ;
+INFO  15:50:57,662 - #14 int
+INFO  15:50:57,662 - #14 m
+INFO  15:50:57,662 - #15 [
+ERROR 15:50:57,662 - Izvrsen oporavak od grekse pri deklarisanju promenljive u liniji 3
+INFO  15:50:57,663 - #5 ;
+ERROR 15:50:57,664 - 
+Sintaksna greska na liniji 4
+INFO  15:50:57,664 - #10 {
+INFO  15:50:57,664 - #42 void
+INFO  15:50:57,664 - #14 main
+ERROR 15:50:57,664 - Izvrsen oporavak od grekse pri deklarisanju promenljive u liniji 4
+INFO  15:50:57,665 - #8 (
+INFO  15:50:57,666 - #9 )
+INFO  15:50:57,666 - #14 int
+INFO  15:50:57,667 - #14 w
+INFO  15:50:57,667 - #5 ;
+INFO  15:50:57,667 - #14 int
+INFO  15:50:57,667 - #14 h
+INFO  15:50:57,667 - #6 ,
+INFO  15:50:57,667 - #14 i
+INFO  15:50:57,667 - #9 )
+ERROR 15:50:57,667 - 
+Sintaksna greska na liniji 15
+INFO  15:50:57,667 - #5 ;
+INFO  15:50:57,667 - #10 {
+INFO  15:50:57,668 - #14 c
+INFO  15:50:57,668 - #41 =
+ERROR 15:50:57,668 - Izvrsen oporavak od grekse pri deklarisanju promenljive u liniji 15
+INFO  15:50:57,670 - #5 ;
+ERROR 15:50:57,670 - 
+Sintaksna greska na liniji 21
+INFO  15:50:57,670 - #14 w
+INFO  15:50:57,670 - #41 =
+INFO  15:50:57,670 - #17 print
+ERROR 15:50:57,670 - Izvrsen oporavak od greske pri dodeli vrednosti do ; u liniji 21
+ERROR 15:50:57,675 - 
+Sintaksna greska na liniji 23
+INFO  15:50:57,675 - #8 (
+INFO  15:50:57,675 - #14 asa
+INFO  15:50:57,675 - #9 )
+INFO  15:50:57,675 - #5 ;
+INFO  15:50:57,675 - #3 }
+INFO  15:50:57,675 - #3 }
+ERROR 15:50:57,675 - Izvrsen oporavak od greske pri dodeli vrednosti do ; u liniji 23
+INFO  15:50:57,677 - ===================================SINTAKSNO STABLO======================================
+INFO  15:50:57,677 - Program(
+  ProgName(
+   TestSuntaksnaGreska
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoDeclList(
+      ) [NoDeclList]
+      VarDeclPart(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          Variables(
+            Variables(
+              Variables(
+                Variable(
+                  VarIdent(
+                   c
+                  ) [VarIdent]
+                ) [Variable]
+                ERROR1(
+                ) [ERROR1]
+              ) [Variables]
+              VarIdent(
+               p
+              ) [VarIdent]
+            ) [Variables]
+            ERROR1(
+            ) [ERROR1]
+          ) [Variables]
+        ) [VarDecl]
+      ) [VarDeclPart]
+    ) [Declarations]
+    VarDeclPart(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        Variable(
+          ERROR1(
+          ) [ERROR1]
+        ) [Variable]
+      ) [VarDecl]
+    ) [VarDeclPart]
+  ) [Declarations]
+  MethDeclarations(
+    NoMethDeclarations(
+    ) [NoMethDeclarations]
+    MethodDecl(
+      ReturnVoid(
+      ) [ReturnVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParametars(
+      ) [NoFormalParametars]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            Variable(
+              VarIdent(
+               w
+              ) [VarIdent]
+            ) [Variable]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          Variables(
+            Variable(
+              VarIdent(
+               h
+              ) [VarIdent]
+            ) [Variable]
+            ERROR1(
+            ) [ERROR1]
+          ) [Variables]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          NoStatements(
+          ) [NoStatements]
+          ERROR2(
+          ) [ERROR2]
+        ) [Statements]
+        ERROR2(
+        ) [ERROR2]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethDeclarations]
+) [Program]

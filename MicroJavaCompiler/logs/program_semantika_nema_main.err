@@ -1,0 +1,29 @@
+INFO  16:11:25,090 - Compiling source file: /Users/dusankrdzic/eclipse-workspace/MJCompiler/test/program_semantika_nema_main.mj
+INFO  16:11:25,118 - #2 program
+INFO  16:11:25,118 - #14 TestSemantika
+INFO  16:11:25,118 - #10 {
+INFO  16:11:25,119 - #3 }
+INFO  16:11:25,124 - ===================================SINTAKSNO STABLO======================================
+INFO  16:11:25,124 - Program(
+  ProgName(
+   TestSemantika
+  ) [ProgName]
+  NoDeclList(
+  ) [NoDeclList]
+  NoMethDeclarations(
+  ) [NoMethDeclarations]
+) [Program]
+INFO  16:11:25,127 - =======================================SEMANTICKA ANALIZA=====================================
+INFO  16:11:25,127 - Zapocinjemo sa glavnim programom na liniji 2
+ERROR 16:11:25,127 - Greska!!! Ne postoji main funkcija u glavnom programu!!! 
+INFO  16:11:25,127 - =======================================SINTAKSNA ANALIZA=====================================
+INFO  16:11:25,127 - 0    classes
+INFO  16:11:25,127 - 0    methods in program
+INFO  16:11:25,127 - 0    global variables
+INFO  16:11:25,127 - 0    constants
+INFO  16:11:25,127 - 0    global arrays
+INFO  16:11:25,127 - 0    local variables in main
+INFO  16:11:25,127 - 0    local arrays in main
+INFO  16:11:25,127 - 0    statements in main
+INFO  16:11:25,128 - 0    function calls in main
+ERROR 16:11:25,128 - Parsiranje NIJE uspesno zavrseno!

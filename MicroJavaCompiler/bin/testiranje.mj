@@ -1,0 +1,141 @@
+program P
+
+const int con=5;
+const char con2='e';
+const bool con3=true;
+
+int a;
+char b;
+bool c;
+
+int x[];
+char y[];
+bool z[];
+
+
+class A 
+
+{
+
+
+int a;
+char b;
+bool c;
+
+int x[];
+char y[];
+bool z[];
+
+{
+void metodaA()
+
+int a;
+char b;
+bool c;
+
+int x[];
+char y[];
+bool z[];
+
+{
+
+
+}
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+{
+
+
+
+
+void funkcija()
+int q;
+
+{
+
+
+
+}
+
+
+void main()
+int a;
+int p;
+char b;
+bool c;
+
+int x[];
+char y[];
+bool z[];
+
+A klasaA;
+
+{
+
+
+
+a=(a+a)*a-a/a+(a+p)-a/a%a+(a+(p*a+a)/p)/a;
+
+
+
+a=5;
+
+x=x;
+
+x[1]=a;
+
+x[a+p*x[1]+(a+a*p/x[1]+x[1])*x[1]]=-x[1]+a-x[a+p*x[1]+(a+a*p/x[a]+x[1])*x[1]];
+
+x[x[1]]=-x[x[1]];
+
+b=y[1];
+y[1]=b;
+a=x[1];
+
+b=y[(a+a*p/x[a]+x[1])*x[1]];
+
+
+x=new int[(a+a*p/x[a]+x[1])*x[1]];
+
+y=new char[(a+a*p/x[a]+x[1])*x[1]];
+klasaA=new A;
+
+a++;
+x[1]++;
+x[1]--;
+
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

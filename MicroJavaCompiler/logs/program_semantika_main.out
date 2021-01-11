@@ -1,0 +1,50 @@
+INFO  16:18:04,996 - Compiling source file: /Users/dusankrdzic/eclipse-workspace/MJCompiler/test/program_semantika_main.mj
+INFO  16:18:05,044 - #2 program
+INFO  16:18:05,044 - #14 TestSemantika
+INFO  16:18:05,044 - #10 {
+INFO  16:18:05,045 - #42 void
+INFO  16:18:05,046 - #14 main
+INFO  16:18:05,046 - #8 (
+INFO  16:18:05,047 - #9 )
+INFO  16:18:05,048 - #10 {
+INFO  16:18:05,048 - #3 }
+INFO  16:18:05,049 - #3 }
+INFO  16:18:05,054 - ===================================SINTAKSNO STABLO======================================
+INFO  16:18:05,055 - Program(
+  ProgName(
+   TestSemantika
+  ) [ProgName]
+  NoDeclList(
+  ) [NoDeclList]
+  MethDeclarations(
+    NoMethDeclarations(
+    ) [NoMethDeclarations]
+    MethodDecl(
+      ReturnVoid(
+      ) [ReturnVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      NoFormalParametars(
+      ) [NoFormalParametars]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethDeclarations]
+) [Program]
+INFO  16:18:05,059 - =======================================SEMANTICKA ANALIZA=====================================
+INFO  16:18:05,059 - Zapocinjemo sa glavnim programom na liniji 2
+INFO  16:18:05,059 - Ulazimo u MAIN funkciju  na liniji 7
+INFO  16:18:05,060 - =======================================SINTAKSNA ANALIZA=====================================
+INFO  16:18:05,060 - 0    classes
+INFO  16:18:05,060 - 1    methods in program
+INFO  16:18:05,060 - 0    global variables
+INFO  16:18:05,060 - 0    constants
+INFO  16:18:05,060 - 0    global arrays
+INFO  16:18:05,060 - 0    local variables in main
+INFO  16:18:05,060 - 0    local arrays in main
+INFO  16:18:05,060 - 0    statements in main
+INFO  16:18:05,060 - 0    function calls in main
+INFO  16:18:05,061 - Parsiranje uspesno zavrseno!

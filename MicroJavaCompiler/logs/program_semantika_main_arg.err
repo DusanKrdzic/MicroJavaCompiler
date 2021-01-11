@@ -1,0 +1,61 @@
+INFO  16:20:43,736 - Compiling source file: /Users/dusankrdzic/eclipse-workspace/MJCompiler/test/program_semantika_main_arg.mj
+INFO  16:20:43,775 - #2 program
+INFO  16:20:43,776 - #14 TestSemantika
+INFO  16:20:43,776 - #10 {
+INFO  16:20:43,777 - #42 void
+INFO  16:20:43,777 - #14 main
+INFO  16:20:43,778 - #8 (
+INFO  16:20:43,778 - #14 int
+INFO  16:20:43,779 - #14 a
+INFO  16:20:43,779 - #9 )
+INFO  16:20:43,779 - #10 {
+INFO  16:20:43,780 - #3 }
+INFO  16:20:43,780 - #3 }
+INFO  16:20:43,787 - ===================================SINTAKSNO STABLO======================================
+INFO  16:20:43,787 - Program(
+  ProgName(
+   TestSemantika
+  ) [ProgName]
+  NoDeclList(
+  ) [NoDeclList]
+  MethDeclarations(
+    NoMethDeclarations(
+    ) [NoMethDeclarations]
+    MethodDecl(
+      ReturnVoid(
+      ) [ReturnVoid]
+      MethodName(
+       main
+      ) [MethodName]
+      FormalParametars(
+        FormParPart(
+          FormParVar(
+            Type(
+             int
+            ) [Type]
+           a
+          ) [FormParVar]
+        ) [FormParPart]
+      ) [FormalParametars]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStatements(
+      ) [NoStatements]
+    ) [MethodDecl]
+  ) [MethDeclarations]
+) [Program]
+INFO  16:20:43,792 - =======================================SEMANTICKA ANALIZA=====================================
+INFO  16:20:43,792 - Zapocinjemo sa glavnim programom na liniji 1
+INFO  16:20:43,792 - Ulazimo u MAIN funkciju  na liniji 6
+ERROR 16:20:43,792 - Main metoda ne sme da ima argumente!!! na liniji 6
+INFO  16:20:43,792 - =======================================SINTAKSNA ANALIZA=====================================
+INFO  16:20:43,792 - 0    classes
+INFO  16:20:43,792 - 1    methods in program
+INFO  16:20:43,792 - 0    global variables
+INFO  16:20:43,792 - 0    constants
+INFO  16:20:43,792 - 0    global arrays
+INFO  16:20:43,793 - 0    local variables in main
+INFO  16:20:43,793 - 0    local arrays in main
+INFO  16:20:43,793 - 0    statements in main
+INFO  16:20:43,793 - 0    function calls in main
+ERROR 16:20:43,793 - Parsiranje NIJE uspesno zavrseno!
