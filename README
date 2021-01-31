@@ -1,0 +1,12 @@
+Implementation of the compiler for microJava.
+Lexical analyzer, parser, code generator for
+microJava.
+
+
+/////////////
+
+Cilj projektnog zadatka je realizacija kompajlera za
+programski jezik Mikrojavu. Kompajler
+omogućava prevodjenje sintaksno i semantički
+ispravnih Mikrojava programa u Mikrojava bajtkod
+koji se izvršava na virtuelnoj mašini za Mikrojavu
